@@ -2,12 +2,7 @@ import {
   BrainCircuit,
   Battery,
   Annoyed,
-  Leaf,
-  Brain,
-  Award,
   CheckCircle,
-  Package,
-  Bot,
   BadgeCheck,
   Mail,
   Linkedin,
@@ -27,9 +22,9 @@ export default function HomePage() {
             que seu cérebro merece.
           </h1>
           <p className="max-w-3xl mx-auto text-md sm:text-md text-white/80 mb-8">
-            Apresentando NeuroFlow™ Coffee: o café especial que une o sabor que
-            você ama com a clareza mental que você precisa. Energia limpa, sem
-            ansiedade e sem o "crash" da tarde.
+            Apresentando NeuroFlow&trade; Coffee: o café especial que une o sabor
+            que você ama com a clareza mental que você precisa. Energia limpa,
+            sem ansiedade e sem o &quot;crash&quot; da tarde.
           </p>
           {/* Elemento Visual - Placeholder para imagem ou vídeo */}
           <div className="w-full max-w-4xl h-96 mx-auto bg-gray-800/50 rounded-2xl mb-8 flex items-center justify-center border border-white/10">
@@ -92,12 +87,12 @@ export default function HomePage() {
               O ritual que sua mente estava esperando.
             </h2>
             <p className="text-lg text-white/80 mb-4">
-              NeuroFlow™ Coffee não é apenas mais um café. É uma fusão
+              NeuroFlow&trade; Coffee não é apenas mais um café. É uma fusão
               cientificamente embasada entre grãos 100% arábica de origem única
               e os nootrópicos naturais mais potentes.
             </p>
             <p className="text-lg text-white/80">
-              A L-teanina promove um estado de calma e alerta, enquanto o Lion's
+              A L-teanina promove um estado de calma e alerta, enquanto o Lion&apos;s
               Mane potencializa a cognição e a memória. O resultado? Uma
               experiência de café superior que eleva sua mente.
             </p>
@@ -140,14 +135,14 @@ export default function HomePage() {
               </h3>
               <p className="text-white/70">
                 Enquanto a cafeína fornece energia, a L-teanina suaviza os
-                efeitos. O Lion's Mane começa a nutrir seus neurônios.
+                efeitos. O Lion&apos;s Mane começa a nutrir seus neurônios.
               </p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-blue-600/20 text-blue-300 rounded-full flex items-center justify-center text-2xl font-bold mb-4 border border-blue-500">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-2">O Estado de "Flow"</h3>
+              <h3 className="text-xl font-semibold mb-2">O Estado de &quot;Flow&quot;</h3>
               <p className="text-white/70">
                 Em minutos, você sente uma clareza mental diferente. Um foco
                 calmo e sustentado que dura por horas.
@@ -165,12 +160,17 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-lg">
               <p className="text-lg text-white/90 mb-4">
-                "Como programador, o NeuroFlow virou uma arma secreta. O código
-                flui sem esforço e o bug da tarde simplesmente sumiu."
+                &quot;Como programador, o NeuroFlow virou uma arma secreta. O código
+                flui sem esforço e o bug da tarde simplesmente sumiu.&quot;
               </p>
               <div className="flex items-center">
                 <div className="relative w-12 h-12 rounded-full bg-gray-600 mr-4 overflow-hidden">
-                  <Image src="/images/Rafael.png" alt="Rafael" fill className="object-cover"></Image>
+                  <Image
+                    src="/images/Rafael.png"
+                    alt="Rafael"
+                    fill
+                    className="object-cover"
+                  ></Image>
                 </div>
                 <div>
                   <p className="font-semibold">Rafael M.</p>
@@ -180,13 +180,18 @@ export default function HomePage() {
             </div>
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-lg">
               <p className="text-lg text-white/90 mb-4">
-                "Eu precisava de criatividade e foco para meus projetos. Esse
+                &quot;Eu precisava de criatividade e foco para meus projetos. Esse
                 café entrega exatamente isso, sem me deixar ansiosa. O sabor é
-                incrível!"
+                incrível!&quot;
               </p>
               <div className="flex items-center">
                 <div className="relative w-12 h-12 rounded-full bg-gray-600 mr-4 overflow-hidden">
-                  <Image src="/images/Juliana.png" alt="Rafael" fill className="object-cover w-full h-full"></Image>
+                  <Image
+                    src="/images/Juliana.png"
+                    alt="Rafael"
+                    fill
+                    className="object-cover w-full h-full"
+                  ></Image>
                 </div>
                 <div>
                   <p className="font-semibold">Juliana P.</p>
@@ -220,7 +225,7 @@ export default function HomePage() {
               <div className="relative w-full h-90 bg-gray-800/50 rounded-2xl flex items-center justify-center border border-white/10 overflow-hidden">
                 <Image
                   src="/images/coffee-250.png"
-                  alt="Café NeuroFlow"
+                  alt="Café NeuroFlow"
                   fill // **1. Propriedade 'fill' para preencher o pai**
                   className="object-cover" // **2. Classe 'object-cover' para cobrir o espaço sem distorção**
                   sizes="(max-width: 768px) 100vw, 50vw" // **3. Opcional, mas recomendado para performance com 'fill'**
@@ -231,12 +236,12 @@ export default function HomePage() {
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <CheckCircle className="text-green-400 mr-3" /> 1 Pacote de
-                    NeuroFlow™ Coffee (250g).
+                    NeuroFlow&trade; Coffee (250g).
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="text-green-400 mr-3" />{" "}
-                    <span className="font-bold">BÔNUS #1:</span> E-book "O Guia
-                    do Foco Profundo".
+                    <span className="font-bold">BÔNUS #1:</span> E-book &quot;O Guia
+                    do Foco Profundo&quot;.
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="text-green-400 mr-3" />{" "}
@@ -288,7 +293,7 @@ export default function HomePage() {
 
         {/* Seção 8: Footer (Rodapé) */}
         <footer className="py-12 border-t border-white/10 text-center text-white/60">
-          <h3 className="text-2xl font-bold mb-2">NeuroFlow™</h3>
+          <h3 className="text-2xl font-bold mb-2">NeuroFlow&trade;</h3>
           <p className="mb-6">Seu café, sua mente. Em perfeita sintonia.</p>
           <div className="flex justify-center gap-6 mb-8">
             <a href="#" className="hover:text-white">
@@ -302,7 +307,7 @@ export default function HomePage() {
             </a>
           </div>
           <p className="text-sm">
-            © {new Date().getFullYear()} NeuroFlow Coffee. Todos os direitos
+            &copy; {new Date().getFullYear()} NeuroFlow Coffee. Todos os direitos
             reservados.
           </p>
           <p className="text-sm">CNPJ: 00.000.000/0001-00</p>
